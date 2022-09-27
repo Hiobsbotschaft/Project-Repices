@@ -1,5 +1,6 @@
 body{
 margin:0;
+font-family: 'Roboto', Arial;
 }
 
 .header {
@@ -89,9 +90,77 @@ img{
     border-radius: 10px;
     width: 150px;
     height:150px;
+    object-fit: cover;
+    
 }
 .pictures{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
+
+}
+
+.quotes {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#1F2937;
+    font-size: 36px;
+    text-align: center;
+    
+   
+}
+.quotetext {
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 100px;
+    text-align: justify;
+    text-align-last: none;
+}
+
+.quoter{
+    font-size: 20px;
+    margin-left: auto;
+    font-weight: bold;
+    padding: 40px;
+    justify-content: center;
+    display: flex;
+}
+
+.signup{
+    margin: 50px;
+    background-color:#3882F6;
+    border-radius: 5px;
+    padding: 30px;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: row;
+}
+
+.headering{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button1{
+    margin-left: auto;
+    border: 2px solid #E5E7EB;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #f9faf8;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
